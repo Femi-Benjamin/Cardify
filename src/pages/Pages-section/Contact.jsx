@@ -32,7 +32,6 @@ const Contact = () => {
                         placeholder='Message'
                         className="border w-full p-2 rounded-lg outline-none mb-5"
                     />
-
                     <div>
                         <CustomButton
                             width="100%"

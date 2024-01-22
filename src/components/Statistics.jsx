@@ -18,27 +18,39 @@ const websites = () => {
       </h1>
 
       <div className="flex flex-wrap justify-center pb-6 gap-4 md:gap-8 items-center">
-        <a href="https://www.jumia.com.ng/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.jumia.com.ng/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={Jumia} alt="" className="w-16 h-16 md:w-28  md:h-20" />{" "}
         </a>
-        <a href="https://www.spotify.com" target="_blank" rel="noopener noreferrer">
-          <img
-            src={spotify}
-            alt=""
-            className="w-16 h-16 md:w-28 md:h-20"
-          />{" "}
+        <a
+          href="https://www.spotify.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={spotify} alt="" className="w-16 h-16 md:w-28 md:h-20" />{" "}
         </a>
-        <a href="https://www.playstation.com/es-ar/" target="_blank" rel="noopener noreferrer">
-          <img
-            src={Playstation}
-            alt=""
-            className="w-16 h-16 md:w-28 md:h-20"
-          />{" "}
+        <a
+          href="https://www.playstation.com/es-ar/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={Playstation} alt="" className="w-16 h-16 md:w-28 md:h-20" />{" "}
         </a>
-        <a href="https://www.deezer.com/en/offers" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.deezer.com/en/offers"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={Deezer} alt="" className="w-16 h-16 md:w-28 md:h-20" />{" "}
         </a>
-        <a href="https://www.apple.com/itunes/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.apple.com/itunes/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={Apple} alt="" className="w-16 h-16 md:w-28 md:h-20" />
         </a>
       </div>
