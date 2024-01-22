@@ -1,5 +1,5 @@
 import ServiceCard from "../../assets/serviCecard.svg";
-import Icon from "../../assets/icon.svg";
+import Icon from "../../assets/Icon.svg";
 import doticon from "../../assets/doticon.svg";
 
 const Services = () => {
