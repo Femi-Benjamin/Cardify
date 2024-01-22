@@ -1,4 +1,4 @@
-import Servicecard from "../../assets/servicecard.svg";
+import ServiceCard from "../../assets/serviCecard.svg";
 import Icon from "../../assets/icon.svg";
 import doticon from "../../assets/doticon.svg";
 
@@ -16,7 +16,7 @@ const Services = () => {
             <div className="flex flex-col md:flex-row md:justify-evenly">
                 {/* BOX ONE */}
                 <div className="w-full md:w-[264px] h-[290px md:bg-white bg-white p-5 md:rounded-md rounded-xl md:p-10 text-center items-center flex flex-col mb-5 md:mb-0">
-                    <img className="mx-auto mb-2 md:mb-4" src={Servicecard} alt="" />
+                    <img className="mx-auto mb-2 md:mb-4" src={ServiceCard} alt="" />
                     <h1 className="text-lg md:text-xl pb-2">High Performance</h1>
                     <p className="text-sm md:text-base">
                         Our cutting-edge technology ensures high-performance gift card
