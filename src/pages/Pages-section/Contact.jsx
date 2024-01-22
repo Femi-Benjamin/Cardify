@@ -39,6 +39,7 @@ const Contact = () => {
                             content="Submit"
                             onClick={() => console.log("Button clicked")}
                             backgroundColor="#004CB8"
+                            textColor="#FFFFFF"
                         />
                     </div>
                 </div>

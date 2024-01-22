@@ -1,7 +1,11 @@
+import { CustomButton } from "../../static/button";
 import Navbar from "../../layouts/Navbar";
 import card from "../../assets/card.svg";
-import { CustomButton } from "../../static/button";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import image from "../../assets/image.svg";
+// import pana from "../../assets/pana.svg";
 import Statistics from "../../components/Statistics";
+import "swiper/css";
 
 const Hero = () => {
   return (
@@ -31,7 +35,7 @@ const Hero = () => {
             />
           </div>
           <div>
-            <img src={card} alt="" className="w-full md:w-auto" />
+            <img src={card} alt="" className="w-full md:w-auto animate-pulse" />
           </div>
         </div>
       </div>
@@ -41,3 +45,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
