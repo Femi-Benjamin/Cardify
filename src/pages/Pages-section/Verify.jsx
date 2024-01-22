@@ -1,11 +1,11 @@
 import pana from '../../assets/pana.svg';
 import alert from '../../assets/alert.svg';
-import Vector from '../../assets/vector.png';
+import Vect from '../../assets/vect.png';
 import { CustomButton } from "../../static/button";
 
 const Verify = () => {
   return (
-    <div className='px-4 md:px-20' style={{ backgroundImage: `url(${Vector})`, backgroundSize: '', backgroundPosition: 'center' }}>
+    <div className='px-4 md:px-20' style={{ backgroundImage: `url(${Vect})`, backgroundSize: '', backgroundPosition: 'center' }}>
       <div className='flex flex-col items-center md:flex-row md:justify-around'>
         <div className='mb-8 md:mb-0'>
           <img src={pana} alt="" className='max-w-full h-auto' />
