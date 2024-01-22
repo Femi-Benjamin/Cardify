@@ -1,5 +1,5 @@
 import Jumia from "../assets/Jumia.svg";
-import Spotify from "../assets/Spotify.svg";
+import spotify from "../assets/spotify.svg";
 import Playstation from "../assets/Playstation.svg";
 import Deezer from "../assets/Deezer.svg";
 import Apple from "../assets/Apple.svg";
@@ -23,7 +23,7 @@ const websites = () => {
         </a>
         <a href="https://www.spotify.com" target="_blank" rel="noopener noreferrer">
           <img
-            src={Spotify}
+            src={spotify}
             alt=""
             className="w-16 h-16 md:w-28 md:h-20"
           />{" "}
