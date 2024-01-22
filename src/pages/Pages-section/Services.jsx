@@ -1,4 +1,4 @@
-import ServiceCard from "../../assets/serviCecard.svg";
+import ServiceCard from "../../assets/ServiceCard.svg";
 import Icon from "../../assets/Icon.svg";
 import doticon from "../../assets/doticon.svg";
 
