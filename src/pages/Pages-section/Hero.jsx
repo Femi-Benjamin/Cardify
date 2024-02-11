@@ -14,7 +14,7 @@ const Hero = () => {
         <div>
           <Navbar />
         </div>
-        <div className="flex flex-col md:flex-row justify-between items-center py-8 md:py-20 px-4 md:px-20 md:text-left text-center">
+        <div className="flex flex-col md:flex-row justify-between items-center py-32 lg:py-36 px-4 md:px-20 md:text-left text-center">
           <div className="mb-8 md:mb-0 md:mr-8">
             <h1 className="text-4xl md:text-6xl leading-[48px] md:leading-[75.497px] text-[#FFF] pb-4 md:pb-6">
               <span className="text-[#5BC2A9]">Verify</span> your Gift Cards{" "}
@@ -35,7 +35,7 @@ const Hero = () => {
             />
           </div>
           <div>
-            <img src={card} alt="" className="w-full md:w-auto animate-pulse" />
+            <img src={card} alt="" className="w-full md:w-auto" />
           </div>
         </div>
       </div>

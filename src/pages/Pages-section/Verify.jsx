@@ -14,7 +14,7 @@ const Verify = () => {
 
           <div className='border rounded-xl p-2 md:p-3 flex flex-col md:flex-row justify-between mb-5 items-center'>
             <label htmlFor="cardType" className='mb-2 md:mb-0'>Select Card Type</label>
-            <select className='p-1 md:p-1 outline-none' id="cardType" name="cardType">
+            <select className='p-1 md:p-1 outline-none bg-transparent' id="cardType" name="cardType">
               <option value="mastercard"></option>
               <option value="wallmartVisa">Wallmart Visa</option>
               <option value="eBay">eBay</option>
@@ -26,7 +26,7 @@ const Verify = () => {
           <div className='flex flex-col md:flex-row justify-between items-center mb-5'>
             <div className='mb-4 md:mb-0'>
               {/* <label htmlFor="currency">Select Currency:</label> */}
-              <select className='w-full md:w-auto border rounded-xl p-2 md:p-[13.5px] outline-none' id="currency" name="currency">
+              <select className='w-full md:w-auto border rounded-xl p-2 md:p-[13.5px] outline-none bg-transparent' id="currency" name="currency">
                 <option value="GBP"></option>
                 <option value="GBP">GBP</option>
                 <option value="USD">USD</option>

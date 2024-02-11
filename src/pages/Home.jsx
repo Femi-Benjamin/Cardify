@@ -5,7 +5,7 @@ import Contact from "./Pages-section/Contact";
 import Footer from "./Pages-section/Footer";
 const Home = () => {
   return (
-    <div className="md:bg-neutral-100 bg-neutral-200 h-[2070px">
+    <div className="md:bg-neutral-100 bg-neutral-200">
       <Hero />
       <Verify />
       <Services />
